@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "completcha"
+version = "1.0.1"
+keywords = ["completcha", "captcha", "solver", "api", "token", "captcha solver", "funcaptcha", "arkose", "funcaptcha solver", "arkose solver", "x", "twitter", "twitter captcha", "x captcha", "arkose token", "funcaptcha token"]
+description = "Captcha Solver"
+readme = "README.md"
+authors = [{ name = "Completcha" }, { email = "support@completcha.com" }]
+license = "MIT"
+license-files = ["LICENSE"]
+urls = { "Homepage" = "https://completcha.com" ,  "Repository" = "https://github.com/completcha/completcha-python" }
+dependencies = ['requests', 'colorama']
+requires-python = ">=3.12.1"
+classifiers = [
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta",
+    "Natural Language :: English",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
